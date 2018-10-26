@@ -1,19 +1,63 @@
 {% extends '_base.twig' %}
 
 
-{% block title %}Index page Ahoj2{% endblock %}
+{% block title %}Generic Hipster Coffee{% endblock %}
 
 
 {% block content %}
-    <div class="container">
-        <div class="row">
-            <div class="col p-4">
-                <h1>This a basic template to start a website based on Bootstrap&nbsp;{{ bootstrapVersion }}</h1>
-                <p>
-                    Also check out <a href="example-page-1" class="btn btn-success btn-lg">Example page 1</a>
-                    and <a href="example-page-2" class="btn btn-danger btn-lg">Example page 2</a>.
-                </p>
-            </div>
+<div class="container">
+    <nav class="navbar navbar-light bg-light navbar-expand justify-content-center justify-content-md-between flex-wrap">
+    <a class="navbar-brand" href="#"><img src="/img/logo-krivky-opt.svg" alt="generic-hipster-logo" class="img-fluid" width="150"></a>
+    <div class="navbar-nav">
+        <a class="nav-item nav-link active p-3 p-md-4" href="#">Home</a>
+        <a class="nav-item nav-link p-3 p-md-4" href="menu.html">Menu</a>
+        <a class="nav-item nav-link p-3 p-md-4" href="#">Coffee</a>
+        <a class="nav-item nav-link p-3 p-md-4" href="#">Our Story</a>
+    </div> 
+    </nav>
+
+   
+    <h1 class="text-uppercase">Generic Hipster Coffee</h1>
+    <p>Specialty coffee, fresh food & local community.</p>
+    
+
+    <img src="/img/counter.jpg" alt="generic-hipster-logo" class="img-fluid">
+    
+    <div class="row">
+        <div class="col-sm">
+            <h2 class="h4 text-uppercase">Opening hours</h2>
+            <p>Sunday to Thursday: 8&nbsp;am to&nbsp;11&nbsp;pm</p>
+            <p>Friday to Saturday: 8&nbsp;am to&nbsp;1&nbsp;am</p>
+        </div>
+
+        <div class="col-sm">
+            <h2 class="h4 text-uppercase">Book a&nbsp;table</h2>
+            <p>Call +1&nbsp;415-321-4567</p>
+        </div>
+
+        <div class="col-sm">
+            <h2 class="h4 text-uppercase">Address</h2>
+            <p>321&nbsp;Ivy&nbsp;St. San&nbsp;Francisco, CA&nbsp;94102</p>
         </div>
     </div>
+
+    <img src="http://satyr.io/1200x16:9" alt="budoucí mapa" class="img-fluid">
+</div>  
+    <div class="spodek bg-dark text-center text-light">
+        <nav class="nav justify-content-center">
+        <a class="nav-link text-light active" href="#">Home</a>
+        <a class="nav-link text-primary" href="#">Menu</a>
+        <a class="nav-link text-primary" href="#">Coffee</a>
+        <a class="nav-link text-primary" href="#">Our Story</a>
+        </nav>
+
+        <p class="text-uppercase h5">#hipstersmakecoffee</p>
+        <p>Follow us on Twitter and Instagram</p>
+
+
+
+    </div>
+
+
+  
 {% endblock %}
