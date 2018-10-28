@@ -1,13 +1,46 @@
-h1, .h1 {padding-top: 1em;  }
+h1, .h1 {padding-top: 1em;
+        padding-bottom: 0.5em;  }
 h2, .h2 {padding-top: 1em;  }
 h3, .h3 {padding-top: 1em;  }
 h4, .h4 {padding-top: 1em;  }
+
+
+.spodek {
+    margin-top: -40px;
+    padding-top: 50px;
+}
+
+.negative-margin-fix { /* to use if there is no image at the bottom */
+    padding: 40px;
+}
+
+.annotation {
+    font-size: 1.25rem;
+}
+
+
+/* HOME */
+
+.motto {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+
+/* MENU */
 
 .price-list-item {
     padding-right: 2em;
 }
 
-.spodek {
-    margin-top: -40px;
-    padding-top: 50px;
+/* COFFEE*/
+
+.coffee-name {
+    background-color: light;
+    text-transform: uppercase;
+}
+
+.coffee-taste {
+    font-style: italic;
+    margin-top: 0.75em;
 }
