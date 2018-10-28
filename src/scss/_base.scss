@@ -1,7 +1,11 @@
-h1, .h1 {  }
-h2, .h2 {  }
-h3, .h3 {  }
-h4, .h4 {  }
+h1, .h1 {padding-top: 1em;  }
+h2, .h2 {padding-top: 1em;  }
+h3, .h3 {padding-top: 1em;  }
+h4, .h4 {padding-top: 1em;  }
+
+.price-list-item {
+    padding-right: 2em;
+}
 
 .spodek {
     margin-top: -40px;
