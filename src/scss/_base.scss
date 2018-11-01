@@ -1,9 +1,14 @@
 h1, .h1 {padding-top: 1em;
-        padding-bottom: 0.5em;  }
-h2, .h2 {padding-top: 1em;  }
-h3, .h3 {padding-top: 1em;  }
-h4, .h4 {padding-top: 1em;  }
+        padding-bottom: 0.5em; 
+        font-weight: 300; }
+h2, .h2 {padding-top: 1em; font-weight: 300;  }
+h3, .h3 {padding-top: 1em; font-weight: 300; }
+h4, .h4 {padding-top: 1em; font-weight: 300; }
 
+p {
+    font-family: "Roboto";
+    font-weight: 300;
+}
 
 .ghc-spodek {
     margin-top: -40px;
@@ -16,6 +21,7 @@ h4, .h4 {padding-top: 1em;  }
 
 .ghc-annotation {
     font-size: 1.25rem;
+    font-weight: 300;
 }
 
 
@@ -31,16 +37,29 @@ h4, .h4 {padding-top: 1em;  }
 
 .ghc-price-list-item {
     padding-right: 2em;
+    font-weight: 300;
 }
 
 /* COFFEE*/
 
+.card {
+    border: 0;
+}
+
 .ghc-coffee-name {
-    background-color: light;
     text-transform: uppercase;
+    font-weight: 300;
+    padding: 0.5em;
+    margin-bottom: 0;
 }
 
 .ghc-coffee-taste {
     font-style: italic;
     margin-top: 0.75em;
+    font-weight: 300;
+}
+
+.ghc-coffee-about {
+    font-family: "Roboto Condensed";
+    font-weight: 300;
 }
