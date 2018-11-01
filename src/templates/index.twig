@@ -23,7 +23,7 @@
     <h1 class="text-uppercase">Generic Hipster Coffee</h1>
     <p class="ghc-motto">Specialty coffee, fresh food & local community.</p>
     
-
+    
     <img src="/img/counter.jpg" alt="generic-hipster-logo" class="img-fluid">
     
     <div class="row">
@@ -44,7 +44,12 @@
         </div>
     </div>
 
-    <img src="http://satyr.io/1200x16:9" alt="budoucí mapa" class="img-fluid">
+<div class="embed-responsive embed-responsive-16by9">
+   <div id="map" class="embed-responsive-item">
+   </div>
+</div>
+
+
 </div>  
     <div class="ghc-spodek bg-dark text-center text-light">
         <nav class="nav justify-content-center">
@@ -61,6 +66,74 @@
 
     </div>
 
-
+    <script>
+      
+      function initMap() {
+          var map;
+          var uluru = {lat: 37.777, lng: -122.424};
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: uluru,
+          zoom: 17,
+          mapTypeControl: false,
+          streetViewControl: false,
+          styles: [
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry",
+                "stylers": [
+                {
+                    "color": "#e7e7e7"
+                }
+                ]
+            },
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "geometry.fill",
+                "stylers": [
+                {
+                    "color": "#e7e7e7"
+                },
+                {
+                    "visibility": "on"
+                },
+                {
+                    "weight": 2.5
+                }
+                ]
+            },
+            {
+                "featureType": "landscape.man_made",
+                "elementType": "labels.icon",
+                "stylers": [
+                {
+                    "color": "#e7e7e7"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.business",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            },
+            {
+                "featureType": "poi.park",
+                "elementType": "labels.text",
+                "stylers": [
+                {
+                    "visibility": "off"
+                }
+                ]
+            }
+            ]
+        });
+        var marker = new google.maps.Marker({position: uluru, map: map});
+      }
+      
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmmvRPDWEKXnIl7ZMKUHaZDDPfW9g_OgY&callback=initMap"
+    async defer></script>
   
 {% endblock %}
