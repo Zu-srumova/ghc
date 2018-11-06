@@ -4,7 +4,9 @@ h1, .h1 {padding-top: 1em;
         font-weight: 300; }
 h2, .h2 {padding-top: 1em; font-weight: 300; letter-spacing: 0.07em; }
 h3, .h3 {padding-top: 1em; font-weight: 300; letter-spacing: 0.07em; }
-h4, .h4 {padding-top: 1em; font-weight: 300; }
+h4, .h4 {padding-top: 1em; font-weight: 300; letter-spacing: 0.07em;}
+h5, .h5 {padding-top: 1em; padding-bottom: 1em; font-weight: 300; letter-spacing: 0.07em;}
+
 
 p {
     font-weight: 300;
@@ -15,6 +17,10 @@ p {
     padding-top: 50px;
 }
 
+.ghc-spodek a {
+    color: $primary;
+}
+
 .ghc-negative-margin-fix { /* to use if there is no image at the bottom */
     padding: 40px;
 }
@@ -23,6 +29,7 @@ p {
     font-size: 1.25rem;
     font-weight: 300;
 }
+
 
 
 /* HOME */
