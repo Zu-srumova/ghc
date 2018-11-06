@@ -7,11 +7,42 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i" rel="stylesheet">
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}
+
+
+        {% endblock %}</title>
 </head>
 
 <body>
+    <div class="bg-light">
+        <div class="container">
+            <nav class="navbar navbar-light navbar-expand justify-content-center justify-content-md-between flex-wrap">
+                <a class="navbar-brand" href="#">
+                    <img src="/img/logo-krivky-opt.svg" alt="Generic Hipster Coffee logo" class="img-fluid" width="150">
+                </a>
+                <div class="navbar-nav">
+                    {% block nav %}
+                        {% include '__nav.twig' %}
+                    {% endblock %}
+                </div>
+            </nav>
+        </div>
+    </div>
+
     {% block content %}{% endblock %}
+
+    <div class="ghc-spodek bg-dark text-center text-light">
+        <nav class="nav justify-content-center">
+            {% block nav %}
+                {% include '__nav.twig' %}
+            {% endblock %}
+        </nav>
+
+        <p class="text-uppercase h5">#hipstersmakecoffee</p>
+        <p>Follow us on <a href ="#">Twitter</a> and <a href ="#">Instagram</a></p>
+    </div>
+
+
     {#
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS and your own script at the end -->
@@ -24,5 +55,4 @@
     <script src="js/custom.js"></script>
     #}
 </body>
-
 </html>
