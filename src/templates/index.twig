@@ -2,6 +2,12 @@
 
 {% block title %}Generic Hipster Coffee{% endblock %}
 
+
+{% block nav %}
+    {% include '__nav.twig' with {'active': 'home'} %}
+{% endblock %}
+
+
 {% block content %}
 
 <div class="container">

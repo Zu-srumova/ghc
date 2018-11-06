@@ -21,7 +21,9 @@
                     <img src="/img/logo-krivky-opt.svg" alt="Generic Hipster Coffee logo" class="img-fluid" width="150">
                 </a>
                 <div class="navbar-nav">
-                    {% include '__nav.twig' %}
+                    {% block nav %}
+                        {% include '__nav.twig' %}
+                    {% endblock %}
                 </div>
             </nav>
         </div>
@@ -31,7 +33,9 @@
 
     <div class="ghc-spodek bg-dark text-center text-light">
         <nav class="nav justify-content-center">
-            {% include '__nav.twig' %}
+            {% block nav %}
+                {% include '__nav.twig' %}
+            {% endblock %}
         </nav>
 
         <p class="text-uppercase h5">#hipstersmakecoffee</p>

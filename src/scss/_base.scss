@@ -21,6 +21,11 @@ p {
     color: $primary;
 }
 
+.ghc-spodek a:hover, 
+.ghc-spodek a.active {
+    color: $light;
+}
+
 .ghc-negative-margin-fix { /* to use if there is no image at the bottom */
     padding: 40px;
 }
