@@ -4,7 +4,7 @@
 
 
 {% block nav %}
-    {% include '__nav.twig' with {'active': 'home'} %}
+{% include '__nav.twig' with {'active': 'home'} %}
 {% endblock %}
 
 
@@ -81,8 +81,27 @@
         var marker = new google.maps.Marker({ position: uluru, map: map });
     }
 </script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmmvRPDWEKXnIl7ZMKUHaZDDPfW9g_OgY&callback=initMap"
-    async defer
-></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmmvRPDWEKXnIl7ZMKUHaZDDPfW9g_OgY&callback=initMap"
+    async defer></script>
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "Generic Hipster Coffee",
+        "description": "Speciality coffee, fresh food &amp; local community. Each cup of coffee is made with love, precision and care.",
+        "image": "/img/counter.jpg",
+        "location": {
+            "@type": "Place",
+            "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "San Francisco",
+            "streetAddress": "321 Ivy St.",
+            "postalCode": "CA 94102"
+            }
+        },
+        "openingHours": "Sunday to Thursday: 8 am to 11 pm; Friday to Saturday: 8 am to 1 am"
+    }
+</script>
+
 {% endblock %}
