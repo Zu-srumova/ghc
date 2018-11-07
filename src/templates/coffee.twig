@@ -4,7 +4,7 @@
 {% block title %}Generic Hipster Coffee{% endblock %}
 
 {% block nav %}
-    {% include '__nav.twig' with {'active': 'coffee'} %}
+{% include '__nav.twig' with {'active': 'coffee'} %}
 {% endblock %}
 
 
@@ -25,7 +25,7 @@
         {% for coffee in coffees %}
         <div class="col-sm-6">
             <div class="card">
-                <h3 class="card-title ghc-coffee-name">{{ coffee.name }} ({{ coffee.country }})</h3>
+                <h2 class="card-title ghc-coffee-name h3">{{ coffee.name }} ({{ coffee.country }})</h2>
                 <img src="{{ coffee.img }}" alt="{{ coffee.name }}" class="img-fluid card-img-top">
                 <div class="card-body">
                     <p class="card-text ghc-coffee-taste">{{ coffee.taste|join(' / ') }}</p>
