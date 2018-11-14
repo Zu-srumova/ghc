@@ -16,8 +16,15 @@ p a {
     color: $primary;
 }
 
+
 .ghc-spodek-picture {
     margin-bottom: -40px;
+}
+
+@media print {
+    .ghc-spodek {
+        display: none;
+    }
 }
 
 .ghc-spodek a {
