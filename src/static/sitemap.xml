@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>http://ghc.zu.coreskill.tech/</loc>
+
+      <lastmod>2018-11-14</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <loc>http://ghc.zu.coreskill.tech/nemu</loc>
+      
+      <lastmod>2018-11-14</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://ghc.zu.coreskill.tech/coffee</loc>
+
+      <lastmod>2018-11-14</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>http://ghc.zu.coreskill.tech/our-story</loc>
+
+      <lastmod>2018-11-14</lastmod>
+
+      <changefreq>yearly</changefreq>
+
+      <priority>0.3</priority>
+
+   </url>
+
+</urlset>
