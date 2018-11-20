@@ -10,32 +10,28 @@
 
 {% block content %}
 
-<div class="container">
+<h1 class="text-uppercase">Coffee</h1>
+<p class="ghc-annotation">
+    We work with specialty coffee from current crops which is carefully roasted. Our coffee
+    is fruity, juicy and never boring. We bring you the best from leading european specialty roasteries, currently
+    mostly from <a href="https://shop.squaremilecoffee.com/">Square Mile Coffee Roasters</a>, a multi award winning
+    coffee roasting company based in East London.
+</p>
+<p>You can currently buy these beans in 350g bags.</p>
 
-    <h1 class="text-uppercase">Coffee</h1>
-    <p class="ghc-annotation">
-        We work with specialty coffee from current crops which is carefully roasted. Our coffee
-        is fruity, juicy and never boring. We bring you the best from leading european specialty roasteries, currently
-        mostly from <a href="https://shop.squaremilecoffee.com/">Square Mile Coffee Roasters</a>, a multi award winning
-        coffee roasting company based in East London.
-    </p>
-    <p>You can currently buy these beans in 350g bags.</p>
-
-    <div class="row">
-        {% for coffee in coffees %}
-        <div class="col-sm-6">
-            <div class="card">
-                <h2 class="card-title ghc-coffee-name h3">{{ coffee.name }} ({{ coffee.country }})</h2>
-                <img src="{{ coffee.img }}" alt="{{ coffee.name }}" class="img-fluid card-img-top">
-                <div class="card-body">
-                    <p class="card-text ghc-coffee-taste">{{ coffee.taste|join(' / ') }}</p>
-                    <p class="card-text ghc-coffee-about">{{ coffee.info }}</p>
-                </div>
+<div class="row">
+    {% for coffee in coffees %}
+    <div class="col-sm-6">
+        <div class="card">
+            <h2 class="card-title ghc-coffee-name h3">{{ coffee.name }} ({{ coffee.country }})</h2>
+            <img src="{{ coffee.img }}" alt="{{ coffee.name }}" class="img-fluid card-img-top">
+            <div class="card-body">
+                <p class="card-text ghc-coffee-taste">{{ coffee.taste|join(' / ') }}</p>
+                <p class="card-text ghc-coffee-about">{{ coffee.info }}</p>
             </div>
         </div>
-        {% endfor %}
     </div>
-
+    {% endfor %}
 </div>
 
 {% endblock %}
