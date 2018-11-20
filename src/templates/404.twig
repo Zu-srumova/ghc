@@ -1,0 +1,24 @@
+{% extends '_base.twig' %}
+
+
+{% block title %}Not found (404) – Generic Hipster Coffee{% endblock %}
+
+{% block nav %}
+{% include '__nav.twig' %}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container">
+
+    <h1 class="text-uppercase">404 – Coffee not found</h1>
+    <p class="ghc-annotation">
+        The content you are looking for is not here. 
+    </p>
+    <p>You can visit our <a href="/index">homepage</a> or see the <a href="/menu">menu</a>.</p>
+
+    <img src="/img/no-coffee.jpg" alt="Empty coffee mug" class="img-fluid ghc-spodek-picture">
+</div>
+
+{% endblock %}

@@ -85,3 +85,5 @@ See `browserslist` in `package.json` for supported browsers.
 ### Deployment
 
 Upload everything in `/dist/` folder to the server.
+To deploy the web to development/staging server use "npm run deploy".
+To deploy the web to production server use "npm run deploy-prod".
