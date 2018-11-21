@@ -30,7 +30,7 @@
 <body>
     <div class="bg-light">
         <div class="container">
-            <nav class="navbar navbar-light navbar-expand flex-column flex-md-row justify-content-center justify-content-md-between flex-wrap">
+            <nav class="navbar navbar-light navbar-expand flex-column flex-md-row justify-content-center justify-content-md-between flex-wrap" role="navigation">
                 <a class="navbar-brand" href="#">
                     <img src="/img/logo-krivky-opt.svg" alt="Generic Hipster Coffee logo" class="img-fluid" width="150">
                 </a>
@@ -43,11 +43,11 @@
         </div>
     </div>
 
-    {% block content %}
-        <div class="container"></div>
-    {% endblock %}
+    <main class="container" role="main">
+        {% block content %}{% endblock %}
+    </main>
 
-    <div class="ghc-spodek bg-dark text-center py-5">
+    <footer class="ghc-spodek bg-dark text-center py-5" role="contentinfo">
         <nav class="nav justify-content-center">
             {% block nav %}
                 {% include '__nav.twig' %}
@@ -56,7 +56,7 @@
 
         <p class="text-uppercase h5 pt-5 pb-2 text-secondary">#hipstersmakecoffee</p>
         <p class="text-secondary">Follow us on <a href ="https://twitter.com/ghcoffeesf">Twitter</a> and <a href ="https://www.instagram.com/ghcoffeesf/">Instagram</a></p>
-    </div>
+    </footer>
     <p class="d-none d-print-block mt-5 h5 text-center">Printed from: ghc.zu.coreskill.tech</p>
 
 
