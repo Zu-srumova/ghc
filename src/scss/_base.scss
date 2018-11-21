@@ -66,6 +66,10 @@ p a {
     font-weight: 300;
 }
 
+.ghc-price-list-item span {
+    display: block; // for IE 10
+}
+
 /* COFFEE*/
 
 .card {
@@ -89,4 +93,8 @@ p a {
 
 .ghc-coffee-about {
     font-weight: 300;
+}
+
+.card-img-top {
+    min-height: 1px; // for IE 11
 }
