@@ -94,3 +94,7 @@ p a {
 .ghc-coffee-about {
     font-weight: 300;
 }
+
+.card-img-top {
+    min-height: 1px; // for IE 11
+}
