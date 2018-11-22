@@ -30,6 +30,12 @@ p a {
     }
 }
 
+@media screen and (min-width: 768px) {
+    #logo {
+        width: 150px;
+    }
+}
+
 .ghc-spodek a {
     color: $primary;
 }
