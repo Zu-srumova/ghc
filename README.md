@@ -1,4 +1,4 @@
-# A basic template to develop Generic Hipster Coffee website
+# Generic Hipster Coffee website
 
 Includes:
 
