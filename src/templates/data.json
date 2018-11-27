@@ -1,5 +1,4 @@
 {
-  "bootstrapVersion": "4.1.3",
   "coffees": [
     {
       "name": "Ou Yang",
@@ -68,36 +67,6 @@
         "almond"
       ],
       "info": "We welcome our November instalment of the Ten For Ten coffee series; celebrating ten years of Square Mile with Santa Rosa from Costa Rica. We have been buying from Luis and Oscar's farms for years now and this has a very deserved place in the series. Sweet poached pears precede creamy butterscotch with hints of almond in the finish, the definition of a well-rounded coffee."
-    }
-  ],
-  "sampleColors": [
-    {
-      "name": "red",
-      "value": "#f00"
-    },
-    {
-      "name": "green",
-      "value": "#0f0"
-    },
-    {
-      "name": "blue",
-      "value": "#00f"
-    },
-    {
-      "name": "cyan",
-      "value": "#0ff"
-    },
-    {
-      "name": "magenta",
-      "value": "#f0f"
-    },
-    {
-      "name": "yellow",
-      "value": "#ff0"
-    },
-    {
-      "name": "black",
-      "value": "#000"
     }
   ]
 }
