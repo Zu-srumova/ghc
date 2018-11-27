@@ -24,7 +24,15 @@
     <div class="col-sm-6">
         <div class="card">
             <h2 class="card-title ghc-coffee-name h3">{{ coffee.name }} ({{ coffee.country }})</h2>
-            <img src="{{ coffee.img }}" alt="{{ coffee.name }}" class="img-fluid card-img-top">
+            <img src="{{ coffee.img }}" 
+                srcset="{{ coffee.src|join(',') }}"
+                sizes="
+                    (min-width: 1200px) 520px, 
+                    (min-width: 992px) 430px, 
+                    (min-width: 768px) 310px, 
+                    (min-width: 576px) 220px, 
+                    calc(100vw-50px)" 
+                alt="{{ coffee.name }}" class="img-fluid card-img-top">
             <div class="card-body">
                 <p class="card-text ghc-coffee-taste">{{ coffee.taste|join(' / ') }}</p>
                 <p class="card-text ghc-coffee-about">{{ coffee.info }}</p>

@@ -1,10 +1,16 @@
 {
-  "bootstrapVersion": "4.1.3",
   "coffees": [
     {
       "name": "Ou Yang",
       "country": "China",
-      "img": "https://cdn.shopify.com/s/files/1/0017/1562/products/Coffee-SQUARE_1d4c1ced-2263-4524-bfe8-033fac5f8036.jpg",
+      "img": "/img/coffee/ou-yang_c6avya_c_scale,w_573.jpg",
+      "src": [
+        "/img/coffee/ou-yang_c6avya_c_scale,w_220.jpg 220w",
+        "/img/coffee/ou-yang_c6avya_c_scale,w_422.jpg 422w",
+        "/img/coffee/ou-yang_c6avya_c_scale,w_573.jpg 573w",
+        "/img/coffee/ou-yang_c6avya_c_scale,w_700.jpg 700w",
+        "/img/coffee/ou-yang_c6avya_c_scale,w_1000.jpg 1000w"
+      ],
       "taste": [
         "strawberry jam",
         "lychee",
@@ -15,7 +21,14 @@
     {
       "name": "Sin Limites",
       "country": "Costa Rica",
-      "img": "https://cdn.shopify.com/s/files/1/0017/1562/products/Coffee-SQUARE_247e8855-dd71-43de-92fd-8866f50c2549.jpg",
+      "img": "/img/coffee/sin-limites_dacrsy_c_scale,w_567.jpg",
+      "src": [
+        "/img/coffee/sin-limites_dacrsy_c_scale,w_220.jpg 220w",
+         "/img/coffee/sin-limites_dacrsy_c_scale,w_419.jpg 419w",
+         "/img/coffee/sin-limites_dacrsy_c_scale,w_567.jpg 567w",
+         "/img/coffee/sin-limites_dacrsy_c_scale,w_691.jpg 691w",
+         "/img/coffee/sin-limites_dacrsy_c_scale,w_1000.jpg 1000w"
+      ],
       "taste": [
         "orange",
         "red grape",
@@ -26,7 +39,14 @@
     {
       "name": "Liquidambar",
       "country": "Guatemala",
-      "img": "https://cdn.shopify.com/s/files/1/0017/1562/products/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855.jpg",
+      "img": "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_565.jpg",
+      "src": [
+        "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_220.jpg 220w",
+        "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_418.jpg 418w",
+        "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_565.jpg 565w",
+        "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_689.jpg 689w",
+        "/img/coffee/Coffee-SQUARE_df23375a-293b-4a45-8c4c-eb7655e71855_vm5ywi_c_scale,w_1000.jpg 1000w"
+      ],
       "taste": [
         "pear",
         "caramel",
@@ -37,43 +57,20 @@
     {
       "name": "Santa Rosa 1900",
       "country": "Costa Rica",
-      "img": "https://cdn.shopify.com/s/files/1/0017/1562/products/Coffee-SQUARE_fc14666c-7ac5-4916-8356-5ad614a4916f.jpg",
+      "img": "/img/coffee/santa-rosa_ex190j_c_scale,w_561.jpg",
+      "src": [
+        "/img/coffee/santa-rosa_ex190j_c_scale,w_220.jpg 220w",
+        "/img/coffee/santa-rosa_ex190j_c_scale,w_414.jpg 414w",
+        "/img/coffee/santa-rosa_ex190j_c_scale,w_561.jpg 561w",
+        "/img/coffee/santa-rosa_ex190j_c_scale,w_688.jpg 688w",
+        "/img/coffee/santa-rosa_ex190j_c_scale,w_1000.jpg 1000w"
+      ],
       "taste": [
         "poached pear",
         "butterscotch",
         "almond"
       ],
       "info": "We welcome our November instalment of the Ten For Ten coffee series; celebrating ten years of Square Mile with Santa Rosa from Costa Rica. We have been buying from Luis and Oscar's farms for years now and this has a very deserved place in the series. Sweet poached pears precede creamy butterscotch with hints of almond in the finish, the definition of a well-rounded coffee."
-    }
-  ],
-  "sampleColors": [
-    {
-      "name": "red",
-      "value": "#f00"
-    },
-    {
-      "name": "green",
-      "value": "#0f0"
-    },
-    {
-      "name": "blue",
-      "value": "#00f"
-    },
-    {
-      "name": "cyan",
-      "value": "#0ff"
-    },
-    {
-      "name": "magenta",
-      "value": "#f0f"
-    },
-    {
-      "name": "yellow",
-      "value": "#ff0"
-    },
-    {
-      "name": "black",
-      "value": "#000"
     }
   ]
 }
