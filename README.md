@@ -1,5 +1,5 @@
 # Generic Hipster Coffee website
-Fiktivní web fiktivní kavárny podle grafických podkladů fiktivního klienta
+Web fiktivní kavárny podle grafických podkladů fiktivního klienta
 
 ## First time installation
 
