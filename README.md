@@ -1,18 +1,5 @@
 # Generic Hipster Coffee website
-
-Includes:
-
-- **Bootstrap 4**: build responsive, mobile-first projects on the web with the world's most popular front-end component library
-- **Gulp 4**: task runner for running all of the following
-- **Sass compilation**: leverage the power of the most popular CSS extension language
-- **Sourcemaps** generation for easier Sass debugging
-- **Browsersync**: automatically reloads (or injects in case of CSS), browsers' when you change files 
-- **Autoprefixer**: parses CSS and adds vendor prefixes according to [caniuse.com]()
-- **UnCSS**: removes unused styles from CSS
-- **Flexbugs fixes**: automatically fixes some of the [flexbugs](https://github.com/philipwalton/flexbugs) 
-- **CSSO**: CSS minifier with structural optimizations
-- **Twig.js**: JavaScript implementation of the Twig PHP templating language
-
+Fiktivní web fiktivní kavárny podle grafických podkladů fiktivního klienta
 
 ## First time installation
 
